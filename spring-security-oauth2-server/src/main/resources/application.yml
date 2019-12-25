@@ -18,4 +18,8 @@ spring:
       connection-test-query: SELECT 1
 
 server:
-  port: 8080
+  port: 9999
+
+mybatis:
+  type-aliases-package: com.funtl.oauth2.server.domain
+  mapper-locations: classpath:mapper/*.xml

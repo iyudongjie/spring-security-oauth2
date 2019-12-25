@@ -21,6 +21,7 @@
         <!-- 工程模块请随着项目的不断完善自行添加 -->
         <module>spring-security-oauth2-dependencies</module>
         <module>spring-security-oauth2-server</module>
+        <module>spring-security-oauth2-resource</module>
     </modules>
 
     <properties>
